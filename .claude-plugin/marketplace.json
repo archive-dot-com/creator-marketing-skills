@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "creator-marketing-skills",
-      "description": "24 creator marketing skills for brands and agencies: discovery, vetting, outreach, negotiation, briefing, content review, compliance, metrics, and reporting",
+      "description": "25 creator marketing skills for brands and agencies: discovery, vetting, outreach, negotiation, briefing, content review, compliance, metrics, and reporting",
       "source": "./",
       "strict": false,
       "skills": [
@@ -35,6 +35,7 @@
         "./skills/metrics-normalization-formatter",
         "./skills/multi-platform-format-adapter",
         "./skills/niche-fit-scorer",
+        "./skills/post-campaign-creator-scorecard",
         "./skills/reply-triage-classifier",
         "./skills/story-metrics-screenshot-parser",
         "./skills/universal-creator-follow-up-chaser",
