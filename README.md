@@ -141,19 +141,19 @@ You can also invoke skills directly:
 | [creator-posting-compliance-tracker](skills/creator-posting-compliance-tracker/) | Compliance table for contracted vs. actual posts. |
 | [post-campaign-creator-scorecard](skills/post-campaign-creator-scorecard/) | Ranked creator retention list based on campaign performance. |
 
-### Repurposing & Paid Media (coming soon)
+### Repurposing & Paid Media
 | Skill | What it does |
 |-------|-------------|
-| organic-repost-caption-writer | Captions for reposting creator content to brand channels. |
-| paid-social-creative-brief | Brief for the paid social team from whitelisted posts. |
-| paid-ad-copy-adapter | Ad copy variations from a creator's original caption or script. |
+| [organic-repost-caption-writer](skills/organic-repost-caption-writer/) | Captions for reposting creator content to brand channels with proper credit. |
+| [paid-social-creative-brief](skills/paid-social-creative-brief/) | Brief for the paid social team from whitelisted posts. |
+| [paid-ad-copy-adapter](skills/paid-ad-copy-adapter/) | Ad copy variations from a creator's original caption or script. |
 
-### Strategy & Planning (coming soon)
+### Strategy & Planning
 | Skill | What it does |
 |-------|-------------|
-| campaign-goal-to-kpi-framework-builder | Full KPI framework from a business objective. |
-| performance-benchmark-setter | Realistic KPI benchmarks before campaign launch. |
-| quarterly-creator-program-review | Structured QBR document from raw campaign data. |
+| [campaign-goal-to-kpi-framework-builder](skills/campaign-goal-to-kpi-framework-builder/) | Full KPI framework from a business objective. |
+| [performance-benchmark-setter](skills/performance-benchmark-setter/) | Realistic KPI benchmarks before campaign launch. |
+| [quarterly-creator-program-review](skills/quarterly-creator-program-review/) | Structured QBR document from raw campaign data. |
 
 ## License
 
