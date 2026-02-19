@@ -55,5 +55,17 @@ skills/skill-name/
 
 Every skill must pass both review skills before shipping:
 
-- `skills/skill-reviewer/` — Structural quality grader (11 dimensions, must score 110/110)
-- `skills/voice-reviewer/` — Brand voice grader (6 dimensions)
+- `internal/skill-reviewer/` — Structural quality grader (11 dimensions, must score 110/110)
+- `internal/voice-reviewer/` — Brand voice grader (6 dimensions)
+
+## Repo Structure
+
+```
+skills/                  # User-facing skills (brand-context + the 30 v1 skills)
+internal/                # Internal tooling (not user-facing)
+  skill-reviewer/        # Grades skill structure
+  voice-reviewer/        # Grades brand voice
+  skill-builder/         # Skill authoring helper
+docs/                    # Manifests, principles, planning docs
+references/              # Permanent reference material for skills
+```
