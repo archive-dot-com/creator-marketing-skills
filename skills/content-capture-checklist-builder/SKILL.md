@@ -63,7 +63,7 @@ Use this reference to set monitoring windows and capture instructions for each d
 
 | Content Type | Lifespan | Capture Window | Where to Check | Capture Method |
 |---|---|---|---|---|
-| TikTok Video | Permanent (but creator can delete) | Within 48 hours | Creator's profile, hashtag search, brand mention search | Save video + screenshot caption |
+| TikTok Video | Permanent (but creator can delete) | Within 48 hours | Creator's profile, hashtag search, brand mention search | Download video + screenshot caption |
 | TikTok Story | 24 hours | Within 12 hours of posting | Creator's profile avatar ring | Screenshot + screen record |
 | TikTok Live | Gone when ended | During the live stream | Notification or scheduled watch | Screen record in real time |
 | TikTok carousel/photo post | Permanent | Within 48 hours | Creator's profile | Screenshot all slides |
@@ -75,7 +75,7 @@ Use this reference to set monitoring windows and capture instructions for each d
 | Content Type | Lifespan | Capture Window | Where to Check | Capture Method |
 |---|---|---|---|---|
 | YouTube Long-form | Permanent | Within 72 hours | Creator's channel, search by title | Screenshot thumbnail + note URL + capture key moments |
-| YouTube Short | Permanent | Within 48 hours | Creator's Shorts tab | Screenshot + save or screen record |
+| YouTube Short | Permanent | Within 48 hours | Creator's Shorts tab | Screenshot + download or screen record |
 | YouTube Live | May be auto-saved as VOD, may not | During live or within 24 hours | Creator's channel live tab | Screen record during live; confirm VOD exists after |
 | Community Post | Permanent | Within 72 hours | Creator's Community tab | Screenshot |
 
