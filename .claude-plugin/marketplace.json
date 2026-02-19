@@ -1,0 +1,46 @@
+{
+  "name": "creator-marketing-skills",
+  "owner": {
+    "name": "Archive",
+    "url": "https://archive.com"
+  },
+  "metadata": {
+    "description": "AI-powered skills for creator marketing teams at consumer brands and agencies",
+    "version": "1.0.0",
+    "repository": "https://github.com/archive-dot-com/creator-marketing-skills"
+  },
+  "plugins": [
+    {
+      "name": "creator-marketing-skills",
+      "description": "24 creator marketing skills for brands and agencies: discovery, vetting, outreach, negotiation, briefing, content review, compliance, metrics, and reporting",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/audience-demographic-analyzer",
+        "./skills/brand-context",
+        "./skills/brand-safety-screen",
+        "./skills/campaign-roi-calculator",
+        "./skills/campaign-status-dashboard-digest",
+        "./skills/content-approval-feedback-formatter",
+        "./skills/content-capture-checklist-builder",
+        "./skills/content-to-brief-compliance-checker",
+        "./skills/creator-briefing-faq-generator",
+        "./skills/creator-content-concept-generator",
+        "./skills/creator-negotiation-assistant",
+        "./skills/creator-outreach-sequence-generator",
+        "./skills/creator-posting-compliance-tracker",
+        "./skills/creator-rate-estimator",
+        "./skills/engagement-rate-calculator-benchmarker",
+        "./skills/ftc-disclosure-spot-checker",
+        "./skills/metrics-normalization-formatter",
+        "./skills/multi-platform-format-adapter",
+        "./skills/niche-fit-scorer",
+        "./skills/reply-triage-classifier",
+        "./skills/story-metrics-screenshot-parser",
+        "./skills/universal-creator-follow-up-chaser",
+        "./skills/utm-parameter-builder",
+        "./skills/verbal-agreement-summarizer"
+      ]
+    }
+  ]
+}

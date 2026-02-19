@@ -1,6 +1,6 @@
 # Creator Marketing Skills
 
-AI-powered skills for creator marketing teams at consumer brands and agencies. Built for [Archive](https://archive.com).
+AI-powered skills for creator marketing teams at consumer brands and agencies. Built by [Archive.com](https://archive.com).
 
 ## What This Is
 
@@ -11,6 +11,12 @@ A collection of Claude Code skills that automate the repetitive, manual work in 
 - **Brands** running creator programs (beauty, fashion, wellness, food, lifestyle)
 - **Agencies** managing creator campaigns for brand clients
 - From solo founders sourcing their first creators to Enterprise VPs managing thousands of partnerships
+
+## Installation
+
+```
+npx skills add archive-dot-com/creator-marketing-skills
+```
 
 ## Getting Started
 
@@ -69,13 +75,13 @@ After that, use any skill and it will already know your brand, audience, platfor
 | **content-capture-checklist-builder** | Generate a monitoring checklist for what to capture on each platform and when. |
 | **engagement-rate-calculator-benchmarker** | Calculate engagement rates and compare against benchmarks by tier and platform. |
 
-### Reporting & ROI (coming soon)
+### Reporting & ROI
 | Skill | What it does |
 |-------|-------------|
-| campaign-roi-calculator | ROI summary with narrative framing for leadership. |
-| campaign-status-dashboard-digest | Weekly status summary from raw spreadsheet data. |
-| creator-posting-compliance-tracker | Compliance table for contracted vs. actual posts. |
-| post-campaign-creator-scorecard | Ranked creator retention list based on campaign performance. |
+| **campaign-roi-calculator** | ROI summary with narrative framing for leadership. |
+| **campaign-status-dashboard-digest** | Weekly status summary from raw spreadsheet data. |
+| **creator-posting-compliance-tracker** | Compliance table for contracted vs. actual posts. |
+| **post-campaign-creator-scorecard** | Ranked creator retention list based on campaign performance. |
 
 ### Repurposing & Paid Media (coming soon)
 | Skill | What it does |
@@ -90,12 +96,6 @@ After that, use any skill and it will already know your brand, audience, platfor
 | campaign-goal-to-kpi-framework-builder | Full KPI framework from a business objective. |
 | performance-benchmark-setter | Realistic KPI benchmarks before campaign launch. |
 | quarterly-creator-program-review | Structured QBR document from raw campaign data. |
-
-## Installation
-
-```
-# Coming soon — will be installable as a Claude Code plugin
-```
 
 ## License
 
