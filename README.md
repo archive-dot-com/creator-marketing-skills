@@ -12,13 +12,22 @@ A collection of Claude Code skills that automate the repetitive, manual work in 
 - **Agencies** managing creator campaigns for brand clients
 - From solo founders sourcing their first creators to Enterprise VPs managing thousands of partnerships
 
+## Getting Started
+
+**Start here: run `/brand-context` first.** This skill scrapes your brand's website and asks a few creator-marketing-specific questions to build a shared context file. Every other skill reads this file automatically — so you only describe your brand once.
+
+```
+/brand-context
+```
+
+After that, use any skill and it will already know your brand, audience, platforms, and goals.
+
 ## Skills
 
-Coming soon. We're building 15+ skills across three tiers:
-
-- **Fully Autonomous** — Campaign briefs, outreach messages, content briefs, reports, negotiation playbooks
-- **Browser-Powered** — Creator discovery, vetting scorecards, trend research, competitor audits
-- **Integration-Ready** — CRM templates, campaign wikis, gifting programs, ambassador blueprints
+| Skill | What it does |
+|-------|-------------|
+| **brand-context** | Scrape your website + answer a few questions to set up shared brand context. Run this first. |
+| More coming soon | Campaign briefs, outreach messages, content briefs, reports, creator vetting, and more. |
 
 ## Installation
 

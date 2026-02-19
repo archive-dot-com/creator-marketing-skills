@@ -60,7 +60,7 @@ The opening line must establish who Claude is for this task.
 Every skill in this project must check for shared context before asking questions.
 
 **Score 10 requires:**
-- Explicit instruction to check for a shared context file (e.g., `.claude/product-marketing-context.md` or similar)
+- Explicit instruction to check for `.claude/brand-context.md` (the shared brand context file created by the brand-context skill)
 - Instruction to use existing context and only ask for information not already covered
 - This block appears immediately after the role assignment
 

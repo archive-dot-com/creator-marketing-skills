@@ -1,0 +1,9 @@
+# WIP research and scoring (kept locally, not tracked)
+research/
+scratch/
+
+# OS
+.DS_Store
+
+# Claude Code
+.claude/
