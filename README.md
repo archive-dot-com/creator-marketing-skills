@@ -4,7 +4,7 @@ AI-powered skills for creator marketing teams at consumer brands and agencies. B
 
 ## What This Is
 
-A collection of Claude Code skills that automate the repetitive, manual work in creator marketing — writing briefs, vetting creators, generating reports, crafting outreach, and more. Each skill encodes real creator marketing expertise so the output is ready to use, not just a starting point.
+A collection of Claude skills that automate the repetitive, manual work in creator marketing — writing briefs, vetting creators, generating reports, crafting outreach, and more. Each skill encodes real creator marketing expertise so the output is ready to use, not just a starting point.
 
 ## Who It's For
 
@@ -14,36 +14,57 @@ A collection of Claude Code skills that automate the repetitive, manual work in 
 
 ## Installation
 
-### Option 1: CLI Install (Recommended)
+Choose one of the two options below. No coding experience required for either.
 
-Use [npx skills](https://github.com/vercel-labs/skills) to install skills directly:
+### Option 1: Claude Desktop with Cowork (Recommended)
+
+The easiest way to get started — no terminal or coding needed.
+
+1. **Download Claude Desktop** from [claude.ai/download](https://claude.ai/download) (macOS or Windows). Sign in with your Anthropic account.
+2. **Download the skills** — click the green **Code** button at the top of this page, then **Download ZIP**. Unzip the file.
+3. **Open Claude Desktop** and start a new conversation in **Cowork mode**.
+4. **Add the folder** — click the folder icon in the chat to give Claude access to the `creator-marketing-skills` folder you unzipped.
+5. **Install** — type this in the chat and hit enter:
+   ```
+   Install the skills from this folder
+   ```
+
+That's it. Claude will install everything automatically.
+
+> **Step-by-step guide with screenshots:** [Cowork Getting Started Guide (PDF)](https://23233559.fs1.hubspotusercontent-na1.net/hubfs/23233559/Cowork%20Getting%20Started%20Guide.pdf)
+
+### Option 2: Claude Code (CLI)
+
+For users comfortable with a terminal.
+
+1. **Install Claude Code** from [claude.ai/code](https://claude.ai/code). Sign in with your Anthropic account.
+2. **Install Node.js** from [nodejs.org](https://nodejs.org) (click the LTS button). You only need this for the install command.
+3. **Open Claude Code** and run:
+   ```bash
+   npx skills add archive-dot-com/creator-marketing-skills
+   ```
+
+Skills are installed to your `.claude/skills/` directory automatically.
+
+> **Step-by-step guide with screenshots:** [Claude Code Getting Started Guide (PDF)](https://23233559.fs1.hubspotusercontent-na1.net/hubfs/23233559/Getting%20Started%20Guide.pdf)
+
+<details>
+<summary>Install only specific skills or update existing ones</summary>
 
 ```bash
-# Install all skills
-npx skills add archive-dot-com/creator-marketing-skills
-
-# Install specific skills
+# Install specific skills only
 npx skills add archive-dot-com/creator-marketing-skills --skill brand-context creator-outreach-sequence-generator
 
 # List available skills
 npx skills add archive-dot-com/creator-marketing-skills --list
+
+# Update to latest versions (re-run the install command)
+npx skills add archive-dot-com/creator-marketing-skills
 ```
 
-This automatically installs to your `.claude/skills/` directory.
+</details>
 
-### Option 2: Claude Code Plugin
-
-Install via Claude Code's built-in plugin system:
-
-```bash
-# Add the marketplace
-/plugin marketplace add archive-dot-com/creator-marketing-skills
-
-# Install all creator marketing skills
-/plugin install creator-marketing-skills
-```
-
-### Option 3: Clone and Copy
+### Alternative: Clone and Copy
 
 ```bash
 git clone https://github.com/archive-dot-com/creator-marketing-skills.git
@@ -52,7 +73,7 @@ cp -r creator-marketing-skills/skills/* .claude/skills/
 
 ## Getting Started
 
-**Start here: run `/brand-context` first.** This skill scrapes your brand's website and asks a few creator-marketing-specific questions to build a shared context file. Every other skill reads this file automatically — so you only describe your brand once.
+**Start here: run `/brand-context` first.** This skill visits your brand's website and asks a few creator-marketing-specific questions to build a shared context file. Every other skill reads this file automatically — so you only describe your brand once. Takes about 5 minutes.
 
 ```
 /brand-context
@@ -62,7 +83,7 @@ After that, use any skill and it will already know your brand, audience, platfor
 
 ## Usage
 
-Just ask Claude Code to help with creator marketing tasks:
+Describe what you need in plain language — Claude will use the right skill automatically:
 
 ```
 "Write outreach DMs for these 5 creators"
@@ -154,6 +175,17 @@ You can also invoke skills directly:
 | [campaign-goal-to-kpi-framework-builder](skills/campaign-goal-to-kpi-framework-builder/) | Full KPI framework from a business objective. |
 | [performance-benchmark-setter](skills/performance-benchmark-setter/) | Realistic KPI benchmarks before campaign launch. |
 | [quarterly-creator-program-review](skills/quarterly-creator-program-review/) | Structured QBR document from raw campaign data. |
+
+## Troubleshooting
+
+| Problem | Fix |
+|---------|-----|
+| **Claude doesn't recognize a skill** | Make sure skills are installed. Re-run the install step from above. In Cowork, re-select the folder and try again. |
+| **"Command not found" when running `npx`** | Node.js isn't installed. Download it from [nodejs.org](https://nodejs.org), then restart your terminal. |
+| **Skills installed but nothing happens** | Run `/brand-context` first. Also try describing what you need in plain language instead of calling a skill name directly. |
+| **ZIP won't open (Windows)** | Right-click the .zip file and choose "Extract All" before opening. |
+
+Need more help? Contact the Archive team at support@archive.com or reach out to your customer success manager.
 
 ## License
 
