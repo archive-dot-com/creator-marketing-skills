@@ -5,9 +5,12 @@
     "url": "https://archive.com"
   },
   "metadata": {
+    "title": "Creator Marketing Skills by Archive",
     "description": "AI-powered skills for creator marketing teams at consumer brands and agencies",
     "version": "1.0.0",
-    "repository": "https://github.com/archive-dot-com/creator-marketing-skills"
+    "repository": "https://github.com/archive-dot-com/creator-marketing-skills",
+    "icon": "./assets/favicon-256x256.png",
+    "social_preview": "./assets/social-preview.jpg"
   },
   "plugins": [
     {
