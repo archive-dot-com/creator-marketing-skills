@@ -1,7 +1,7 @@
 # Internal docs (kept locally, not tracked)
 research/
 scratch/
-references/
+/references/
 
 # OS
 .DS_Store
