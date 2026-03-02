@@ -133,6 +133,7 @@ You can also invoke skills directly:
 ### Campaign Setup & Briefing
 | Skill | What it does |
 |-------|-------------|
+| [campaign-brief-generator](skills/campaign-brief-generator/) | Generate a complete, ready-to-send creator campaign brief from a few inputs. |
 | [universal-creator-follow-up-chaser](skills/universal-creator-follow-up-chaser/) | Generate escalating follow-up sequences for any chasing scenario. |
 | [utm-parameter-builder](skills/utm-parameter-builder/) | Generate correctly formatted UTM strings and tracking URLs for each creator. |
 | [creator-briefing-faq-generator](skills/creator-briefing-faq-generator/) | Anticipate common creator questions and produce a ready-to-send FAQ. |
